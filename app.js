@@ -1,9 +1,11 @@
-let { add, multiply } = require("./cleverFunctions");
+// let { add, multiply } = require("./cleverFunctions");
 // let cleverFunctions = require("./cleverFunctions")
 
-console.log(multiply(2, 3));
+// console.log(multiply(2, 3));
 // console.log(cleverFunctions.add(5, 5))
 
-let data = require("./data.json");
+// import { add, multiply } from "./cleverFunctions.js";
+import cleverFunctions, { multiply as times } from "./cleverFunctions.js";
 
-console.log(data);
+console.log(cleverFunctions);
+console.log(times);
